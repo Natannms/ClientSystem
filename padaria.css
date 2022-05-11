@@ -1,0 +1,56 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+
+.fundo{
+    background-color:rgb(51, 50, 50);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.fundo_branco{
+    position:relative;
+    margin-top:5%;
+    width:1000px;
+    height: 350px;
+    background-color: rgb(209, 206, 206);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius:60px 0px 60px 0px;
+}
+
+.formulario{
+    position: absolute;
+    top:20px;
+}
+
+button{
+    width:120px;
+    height: 45px;
+    margin: 15px 25px 15px 25px;
+    
+    
+}
+
+
+
+.img{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-top: 80px;
+    border:2px solid rgb(196, 194, 194);
+    width: 165px;
+    height:165px;
+}
+
+.dimensao_img{
+    
+    height:154px;
+    width:154px;
+}
